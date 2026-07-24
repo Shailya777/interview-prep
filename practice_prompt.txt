@@ -6,7 +6,7 @@ SQL: [Insert Topic, e.g., Joins: Inner, Left, Right, Full]
 
 Python: [Insert Topic, e.g., Two Pointers technique]
 
-ML/Stats: [Insert Topic, e.g., Gradient Descent, The Chain Rule, Backpropagation]
+Core competency (Competency 2-7) topics: [Insert Topic, e.g., Gradient Descent, The Chain Rule, Backpropagation]
 
 Execution Rules for this Session:
 
