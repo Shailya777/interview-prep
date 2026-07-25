@@ -97,7 +97,8 @@ Look strictly at the Step 3 Audit scores. Target the lowest-scoring category:
 - If Theory is low -> Generate a Conceptual, Mathematical, or Trade-off question.
 
 **Data Requirement:**
-- For SQL, Pandas, or Data Manipulation questions: You MUST provide a minimal mock schema (Table/Dataframe name, column names, and 1-2 rows of sample data) or code to generate data or point me to dowload dataset so I have the data structure to write the code.
+- For SQL if possible, generate the question using official Oracle HR Schema and I will answer in SQLite / MySQL syntax. If not possible, you must provide me code to generate data. 
+- Pandas, or Data Manipulation or ML, DL, LLM questions: You MUST provide a minimal mock schema (Table/Dataframe name, column names, and 1-2 rows of sample data) OR code to generate data OR point me to dowload dataset so I have the data structure to write the code.
 
 **CRITICAL STOPPING RULE:** 
 After generating the ONE question, you MUST immediately stop generating text. Do not simulate my answer. Do not output Step 5. Wait for my actual input.
