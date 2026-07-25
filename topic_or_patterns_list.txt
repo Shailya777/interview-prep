@@ -129,6 +129,10 @@
 | [PAT-89] | Word Embeddings | Dense semantic vectors: Word2Vec (CBOW/Skip-gram), GloVe, Sentence-BERT. |
 | [PAT-90] | Anomaly Detection | Unsupervised outlier finding: Isolation Forest, contamination parameter. |
 
+| [GAP-ML-01] | Support Vector Machines (SVM) | Maximum margin hyperplanes, support vectors, soft margins (C hyperparameter), Kernel Trick (RBF, Polynomial). |
+| [GAP-ML-02] | K-Nearest Neighbors & Distance Metrics | KNN classification/regression, Curse of Dimensionality, distance metrics (Euclidean, Manhattan, Cosine, Mahalanobis). |
+| [GAP-ML-03] | Naive Bayes Classifier | Bayes Theorem applied to classification, Independence assumption, Gaussian vs. Multinomial NB, Laplace Smoothing. |
+
 ---
 
 ## 6. Deep Learning, Explainability & MLOps ([PAT-91 to 100])
@@ -146,8 +150,52 @@
 | [PAT-99] | Experiment Tracking | Logging parameters, metrics, artifacts, and model versions via MLflow. |
 | [PAT-100] | Dashboard Metrics | Monitoring production performance, detecting Population Stability Index (PSI) drift. |
 
+-- 
 
-## 7. LLM Core & Transformer Architecture ([GAP-LLM-XX])
+## 7. Advanced CNNs & Computer Vision ([GAP-CNN-XX])
+
+| Pattern ID | Topic Name | Core Focus & Interview Questions |
+| :--- | :--- | :--- |
+| [GAP-CNN-01] | Advanced Convolutions | 1x1 Convolutions (dimensionality reduction), Depthwise Separable Convolutions (computational efficiency, MobileNet). |
+| [GAP-CNN-02] | Residual Networks (ResNet) | Skip/Residual connections, solving the vanishing gradient problem in ultra-deep networks, identity mapping. |
+| [GAP-CNN-03] | Transfer Learning & Fine-Tuning | Freezing base layers vs. unfreezing, replacing the classification head, feature extraction vs. full fine-tuning trade-offs. |
+| [GAP-CNN-04] | Object Detection Mechanics | Intersection over Union (IoU), Anchor boxes, Non-Maximum Suppression (NMS), high-level YOLO vs. R-CNN differences. |
+
+--
+
+## 8. Core Network Dynamics & Optimization ([GAP-DL-XX])
+
+| Pattern ID | Topic Name | Core Focus & Interview Questions |
+| :--- | :--- | :--- |
+| [GAP-DL-01] | Vanishing & Exploding Gradients | Weight Initialization (He/Xavier), Gradient Clipping, mathematical intuition of the chain rule and vanishing gradients. |
+| [GAP-DL-02] | Advanced Optimizers | Adam vs. RMSprop vs. SGD with Momentum; adaptive learning rates, exponentially weighted moving averages. |
+| [GAP-DL-03] | Normalization Techniques | Batch Normalization vs. Layer Normalization; when to use which (CNNs vs. Transformers), internal covariate shift. |
+| [GAP-DL-04] | Regularization Strategies | Dropout mechanics, L1 (Lasso) vs. L2 (Ridge) Weight Decay, Early Stopping implementation and trade-offs. |
+
+--
+
+## 9. Sequential Data & Memory ([GAP-SEQ-XX])
+
+| Pattern ID | Topic Name | Core Focus & Interview Questions |
+| :--- | :--- | :--- |
+| [GAP-SEQ-01] | RNNs & Long-Term Dependency Limits | Backpropagation through time (BPTT), why standard RNN architectures fail at capturing long-range context. |
+| [GAP-SEQ-02] | LSTM & GRU Architectures | Forget, Input, and Output gates in LSTMs; Update and Reset gates in GRUs; how they solve the vanishing gradient problem. |
+| [GAP-SEQ-03] | Seq2Seq Models & Context Vectors | Encoder-Decoder architecture mechanics, the information bottleneck problem of fixed-length context vectors. |
+
+-- 
+
+## 10. The Modern Era: Attention & Embeddings ([GAP-ATTN-XX])
+
+| Pattern ID | Topic Name | Core Focus & Interview Questions |
+| :--- | :--- | :--- |
+| [GAP-ATTN-01] | Traditional Attention Mechanisms | Bahdanau (Additive) vs. Luong (Multiplicative) attention; moving from fixed to dynamic context vectors. |
+| [GAP-ATTN-02] | Self-Attention Mechanics | Q, K, V matrices; calculating attention weights; scaled dot-product formula and softmax operations. |
+| [GAP-ATTN-03] | Transformer Architecture Core | Positional Encoding (Sine/Cosine intuition), Encoder vs. Decoder blocks, Masked Self-Attention in decoders. |
+| [GAP-ATTN-04] | Word Embeddings & Latent Space | Static (Word2Vec/GloVe) vs. Contextual embeddings; semantic mapping and linear relationships in high-dimensional space. |
+
+--
+
+## 11. LLM Core & Transformer Architecture ([GAP-LLM-XX])
 
 | Pattern ID | Topic Name | Core Focus & Interview Questions |
 | :--- | :--- | :--- |
@@ -159,7 +207,7 @@
 
 ---
 
-## 8. Retrieval-Augmented Generation & Vector Search ([GAP-RAG-XX])
+## 12. Retrieval-Augmented Generation & Vector Search ([GAP-RAG-XX])
 
 | Pattern ID | Topic Name | Core Focus & Interview Questions |
 | :--- | :--- | :--- |
@@ -171,7 +219,7 @@
 
 ---
 
-## 9. Fine-Tuning & Model Adaptation ([GAP-FT-XX])
+## 13. Fine-Tuning & Model Adaptation ([GAP-FT-XX])
 
 | Pattern ID | Topic Name | Core Focus & Interview Questions |
 | :--- | :--- | :--- |
@@ -182,7 +230,7 @@
 
 ---
 
-## 10. LLM Agents, Workflows & Tool Use ([GAP-AGT-XX])
+## 14. LLM Agents, Workflows & Tool Use ([GAP-AGT-XX])
 
 | Pattern ID | Topic Name | Core Focus & Interview Questions |
 | :--- | :--- | :--- |
@@ -192,7 +240,7 @@
 
 ---
 
-## 11. LLM Evaluation, Observability & Guardrails ([GAP-EVAL-XX])
+## 15. LLM Evaluation, Observability & Guardrails ([GAP-EVAL-XX])
 
 | Pattern ID | Topic Name | Core Focus & Interview Questions |
 | :--- | :--- | :--- |
@@ -202,7 +250,7 @@
 
 ---
 
-## 12. Machine Learning & LLM System Design ([GAP-SYS-XX])
+## 16. Machine Learning & LLM System Design ([GAP-SYS-XX])
 
 | Pattern ID | Topic Name | Core Focus & Interview Questions |
 | :--- | :--- | :--- |
@@ -213,62 +261,10 @@
 
 ---
 
-## 13. Classical ML & SQL Foundations ([GAP-ML-XX] & [GAP-SQL-XX])
-
-| Pattern ID | Topic Name | Core Focus & Interview Questions |
-| :--- | :--- | :--- |
-| [GAP-ML-01] | Support Vector Machines (SVM) | Maximum margin hyperplanes, support vectors, soft margins (C hyperparameter), Kernel Trick (RBF, Polynomial). |
-| [GAP-ML-02] | K-Nearest Neighbors & Distance Metrics | KNN classification/regression, Curse of Dimensionality, distance metrics (Euclidean, Manhattan, Cosine, Mahalanobis). |
-| [GAP-ML-03] | Naive Bayes Classifier | Bayes Theorem applied to classification, Independence assumption, Gaussian vs. Multinomial NB, Laplace Smoothing. |
-| [GAP-SQL-01] | SQL Query Optimization & Execution Plans | B-Tree Indexes, Partition Pruning, evaluating EXPLAIN query execution plans, optimizing slow JOIN operations. |
-| [GAP-SQL-02] | Database Schema Design & Normalization | Star Schema vs. Snowflake Schema, Primary/Foreign Keys, Normalization forms (1NF, 2NF, 3NF). |
-
----
-
-## 14. Interview Execution & Strategy ([GAP-INT-XX])
+## 17. Interview Execution & Strategy ([GAP-INT-XX])
 
 | Pattern ID | Topic Name | Core Focus & Interview Questions |
 | :--- | :--- | :--- |
 | [GAP-INT-01] | Python Data Structures & Whiteboarding | Dictionary/hashmap manipulation, list comprehensions, string parsing, sliding windows, and lightweight algorithmic puzzles. |
 | [GAP-INT-02] | Product Sense, Metrics & Root Cause Analysis | Systematically diagnosing metric drops (e.g., "DAU dropped 10%"), defining primary/guardrail metrics, product tradeoff frameworks. |
 | [GAP-INT-03] | Behavioral Framing & Narrative Crafting | Structuring past projects/gap story using STAR framework, handling "Tell me about yourself", framing self-directed execution as a strength. |
-
-
-## 15. Core Network Dynamics & Optimization ([GAP-DL-XX])
-
-| Pattern ID | Topic Name | Core Focus & Interview Questions |
-| :--- | :--- | :--- |
-| [GAP-DL-01] | Vanishing & Exploding Gradients | Weight Initialization (He/Xavier), Gradient Clipping, mathematical intuition of the chain rule and vanishing gradients. |
-| [GAP-DL-02] | Advanced Optimizers | Adam vs. RMSprop vs. SGD with Momentum; adaptive learning rates, exponentially weighted moving averages. |
-| [GAP-DL-03] | Normalization Techniques | Batch Normalization vs. Layer Normalization; when to use which (CNNs vs. Transformers), internal covariate shift. |
-| [GAP-DL-04] | Regularization Strategies | Dropout mechanics, L1 (Lasso) vs. L2 (Ridge) Weight Decay, Early Stopping implementation and trade-offs. |
-
----
-
-## 16. Sequential Data & Memory ([GAP-SEQ-XX])
-
-| Pattern ID | Topic Name | Core Focus & Interview Questions |
-| :--- | :--- | :--- |
-| [GAP-SEQ-01] | RNNs & Long-Term Dependency Limits | Backpropagation through time (BPTT), why standard RNN architectures fail at capturing long-range context. |
-| [GAP-SEQ-02] | LSTM & GRU Architectures | Forget, Input, and Output gates in LSTMs; Update and Reset gates in GRUs; how they solve the vanishing gradient problem. |
-| [GAP-SEQ-03] | Seq2Seq Models & Context Vectors | Encoder-Decoder architecture mechanics, the information bottleneck problem of fixed-length context vectors. |
-
----
-
-## 17. The Modern Era: Attention & Embeddings ([GAP-ATTN-XX])
-
-| Pattern ID | Topic Name | Core Focus & Interview Questions |
-| :--- | :--- | :--- |
-| [GAP-ATTN-01] | Traditional Attention Mechanisms | Bahdanau (Additive) vs. Luong (Multiplicative) attention; moving from fixed to dynamic context vectors. |
-| [GAP-ATTN-02] | Self-Attention Mechanics | Q, K, V matrices; calculating attention weights; scaled dot-product formula and softmax operations. |
-| [GAP-ATTN-03] | Transformer Architecture Core | Positional Encoding (Sine/Cosine intuition), Encoder vs. Decoder blocks, Masked Self-Attention in decoders. |
-| [GAP-ATTN-04] | Word Embeddings & Latent Space | Static (Word2Vec/GloVe) vs. Contextual embeddings; semantic mapping and linear relationships in high-dimensional space. |
-
-## 18. Advanced CNNs & Computer Vision ([GAP-CNN-XX])
-
-| Pattern ID | Topic Name | Core Focus & Interview Questions |
-| :--- | :--- | :--- |
-| [GAP-CNN-01] | Advanced Convolutions | 1x1 Convolutions (dimensionality reduction), Depthwise Separable Convolutions (computational efficiency, MobileNet). |
-| [GAP-CNN-02] | Residual Networks (ResNet) | Skip/Residual connections, solving the vanishing gradient problem in ultra-deep networks, identity mapping. |
-| [GAP-CNN-03] | Transfer Learning & Fine-Tuning | Freezing base layers vs. unfreezing, replacing the classification head, feature extraction vs. full fine-tuning trade-offs. |
-| [GAP-CNN-04] | Object Detection Mechanics | Intersection over Union (IoU), Anchor boxes, Non-Maximum Suppression (NMS), high-level YOLO vs. R-CNN differences. |
