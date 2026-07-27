@@ -67,13 +67,16 @@ Rules:
 - Prefer bullets over paragraphs.
 - Keep explanations concise.
 
+CRITICAL FORMATTING RULE: Return the entire output enclosed within a single raw Markdown code block (using markdown ) so the raw syntax is preserved for easy copying.
+
 ------------------------------------------------------------
 
 # STEP 2 — Existing Practice Questions
 If the provided material already contains practice questions:
 - DO NOT create replacements.
 - For every question provide: Ideal interview answer, Common mistakes candidates make, and One likely interviewer follow-up.
-- Return everything in Markdown.
+
+CRITICAL FORMATTING RULE: Return each question and answer within a single raw Markdown code block (using markdown ) so the raw syntax is preserved for easy copying.
 
 ------------------------------------------------------------
 
