@@ -11,52 +11,52 @@
 ### Basic Aggregation & Filtering
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-15] | Missing Values Detection | Auditing NULL rates, COALESCE(), NULLIF(), and NULL logic. |
-| [PAT-25] | CASE WHEN Categorization | Conditional logic, bucketing, conditional aggregation. |
-| [PAT-01] | GROUP BY + COUNT | Counting rows per category, handling NULLs vs COUNT(*). |
-| [PAT-02] | GROUP BY + SUM/AVG | Grouped numerical metrics, filtering with HAVING. |
+|🟢 [PAT-15] | Missing Values Detection | Auditing NULL rates, COALESCE(), NULLIF(), and NULL logic. |
+|🟢 [PAT-25] | CASE WHEN Categorization | Conditional logic, bucketing, conditional aggregation. |
+|🟢 [PAT-01] | GROUP BY + COUNT | Counting rows per category, handling NULLs vs COUNT(*). |
+|🟢 [PAT-02] | GROUP BY + SUM/AVG | Grouped numerical metrics, filtering with HAVING. |
 
 ### Joins & Structural Logic
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-18] | LEFT JOIN vs INNER JOIN | Unmatched row retention, Anti-JOINs (WHERE right.key IS NULL). |
-| [PAT-16] | JOIN Multiple Tables | Chaining 3+ table JOINs, foreign keys, execution order. |
-| [PAT-17] | Self JOIN | Hierarchical data (employee-manager), row comparison within same table. |
-| [PAT-28] | Subquery Pattern | Scalar, correlated, and derived tables; IN vs EXISTS. |
-| [PAT-29] | CTE Pattern | Common Table Expressions (WITH clause) for readable multi-step logic. |
-| [PAT-30] | Recursive Query Pattern | WITH RECURSIVE for organizational hierarchies and date series generation. |
+|🟢 [PAT-18] | LEFT JOIN vs INNER JOIN | Unmatched row retention, Anti-JOINs (WHERE right.key IS NULL). |
+|🟢 [PAT-16] | JOIN Multiple Tables | Chaining 3+ table JOINs, foreign keys, execution order. |
+|🟢 [PAT-17] | Self JOIN | Hierarchical data (employee-manager), row comparison within same table. |
+|🟢 [PAT-28] | Subquery Pattern | Scalar, correlated, and derived tables; IN vs EXISTS. |
+|🟢 [PAT-29] | CTE Pattern | Common Table Expressions (WITH clause) for readable multi-step logic. |
+|🟢 [PAT-30] | Recursive Query Pattern | WITH RECURSIVE for organizational hierarchies and date series generation. |
 
 ### Window Functions & Ranking
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-19] | Window Function Ranking | Differences between ROW_NUMBER(), RANK(), and DENSE_RANK(). |
-| [PAT-21] | ROW_NUMBER Pattern | Unique sequential numbering, pagination, single top record per group. |
-| [PAT-22] | Dense Ranking Pattern | Nth highest values with ties, no rank gaps. |
-| [PAT-03] | Top N Records | Global Top N via LIMIT vs per-group Top N via ROW_NUMBER(). |
-| [PAT-04] | Second Highest Value | Nth highest salary without LIMIT; subqueries vs DENSE_RANK(). |
-| [PAT-23] | Percentile Calculation | PERCENT_RANK(), CUME_DIST(), NTILE(), PERCENTILE_CONT(). |
+|🟢 [PAT-19] | Window Function Ranking | Differences between ROW_NUMBER(), RANK(), and DENSE_RANK(). |
+|🟢 [PAT-21] | ROW_NUMBER Pattern | Unique sequential numbering, pagination, single top record per group. |
+|🟢 [PAT-22] | Dense Ranking Pattern | Nth highest values with ties, no rank gaps. |
+|🟢 [PAT-03] | Top N Records | Global Top N via LIMIT vs per-group Top N via ROW_NUMBER(). |
+|🟢 [PAT-04] | Second Highest Value | Nth highest salary without LIMIT; subqueries vs DENSE_RANK(). |
+|🟢 [PAT-23] | Percentile Calculation | PERCENT_RANK(), CUME_DIST(), NTILE(), PERCENTILE_CONT(). |
 
 ### Time-Series & Cumulative Metrics
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-07] | Date Difference | Date arithmetic, DATEDIFF, DATE_TRUNC, and duration metrics. |
-| [PAT-20] | LAG and LEAD | Accessing adjacent row values for period-over-period trends. |
-| [PAT-09] | User Growth Over Time | Month-over-Month (MoM) growth calculations using LAG(). |
-| [PAT-05] | Running Total | Cumulative SUM using OVER (ORDER BY date). |
-| [PAT-06] | Rolling Average | Moving averages using ROWS BETWEEN N PRECEDING AND CURRENT ROW. |
+|🟢 [PAT-07] | Date Difference | Date arithmetic, DATEDIFF, DATE_TRUNC, and duration metrics. |
+|🟢 [PAT-20] | LAG and LEAD | Accessing adjacent row values for period-over-period trends. |
+|🟢 [PAT-09] | User Growth Over Time | Month-over-Month (MoM) growth calculations using LAG(). |
+|🟢 [PAT-05] | Running Total | Cumulative SUM using OVER (ORDER BY date). |
+|🟢 [PAT-06] | Rolling Average | Moving averages using ROWS BETWEEN N PRECEDING AND CURRENT ROW. |
 
 ### Advanced Analytics & Product Metrics
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-10] | Daily Active Users (DAU) | Unique daily engagement, DAU/MAU stickiness ratios. |
-| [PAT-11] | Monthly Active Users (MAU) | Counting unique users per month, MoM user retention. |
-| [PAT-14] | Duplicate Removal | Deduplicating records using ROW_NUMBER() PARTITION BY. |
-| [PAT-24] | Median Calculation | Computing median in SQL without built-in MEDIAN() functions. |
-| [PAT-26] | Pivot Table Pattern | Converting long data to wide format using SUM(CASE WHEN). |
-| [PAT-27] | Unpivot Pattern | Reshaping wide data to long format using UNION ALL. |
-| [PAT-12] | Conversion Funnel | Multi-step drop-off analysis using conditional COUNT(DISTINCT CASE). |
-| [PAT-08] | Cohort Retention | User retention matrices, signup cohorts, tracking activity over time. |
-| [PAT-13] | Sessionization | Grouping raw clickstreams into sessions using time gaps & LAG(). |
+|🟢 [PAT-10] | Daily Active Users (DAU) | Unique daily engagement, DAU/MAU stickiness ratios. |
+|🟢 [PAT-11] | Monthly Active Users (MAU) | Counting unique users per month, MoM user retention. |
+|🟢 [PAT-14] | Duplicate Removal | Deduplicating records using ROW_NUMBER() PARTITION BY. |
+|🟢 [PAT-24] | Median Calculation | Computing median in SQL without built-in MEDIAN() functions. |
+|🟢 [PAT-26] | Pivot Table Pattern | Converting long data to wide format using SUM(CASE WHEN). |
+|🟢 [PAT-27] | Unpivot Pattern | Reshaping wide data to long format using UNION ALL. |
+|🟢 [PAT-12] | Conversion Funnel | Multi-step drop-off analysis using conditional COUNT(DISTINCT CASE). |
+|🟢 [PAT-08] | Cohort Retention | User retention matrices, signup cohorts, tracking activity over time. |
+|🟢 [PAT-13] | Sessionization | Grouping raw clickstreams into sessions using time gaps & LAG(). |
 
 ---
 
@@ -68,10 +68,10 @@
 | [PAT-31] | Mean vs Median | Central tendency under skewness and outliers, trimmed mean. |
 | [PAT-32] | Standard Deviation | Sample vs population standard deviation, Bessel correction (ddof=1). |
 | [PAT-33] | Outlier Detection | Z-score thresholding vs IQR method (Tukey fences). |
-| [PAT-56] | Normal Distribution | Bell curve PDF, Empirical Rule (68-95-99.7), Z-score standardization. |
-| [PAT-57] | Binomial Distribution | PMF for fixed independent binary trials, A/B test conversion modeling. |
-| [PAT-58] | Poisson Distribution | Modeling rare events in fixed intervals, Mean = Variance = Lambda. |
-| [PAT-59] | Expected Value | Probability-weighted averages, decision tree split evaluation. |
+|🟢 [PAT-56] | Normal Distribution | Bell curve PDF, Empirical Rule (68-95-99.7), Z-score standardization. |
+|🟢 [PAT-57] | Binomial Distribution | PMF for fixed independent binary trials, A/B test conversion modeling. |
+|🟢 [PAT-58] | Poisson Distribution | Modeling rare events in fixed intervals, Mean = Variance = Lambda. |
+|🟢 [PAT-59] | Expected Value | Probability-weighted averages, decision tree split evaluation. |
 
 ### Probability Basics & Bayes
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
@@ -98,7 +98,7 @@
 | :--- | :--- | :--- |
 | [PAT-47] | Covariance | Unnormalized co-movement of variables, covariance matrix calculation. |
 | [PAT-46] | Correlation vs Causation | Pearson r, confounders, spurious correlation, establishing causality. |
-| [PAT-60] | Simpson's Paradox | Trend reversal in aggregated vs subgroup data, confounding variables. |
+|🟢 [PAT-60] | Simpson's Paradox | Trend reversal in aggregated vs subgroup data, confounding variables. |
 
 ---
 
@@ -107,20 +107,20 @@
 ### Data Splitting & Leakage
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-61] | Train-Test Split | Stratified splits, random seed setting, avoiding data leakage. |
-| [PAT-62] | Cross-Validation | K-Fold vs Stratified K-Fold CV, preventing leakage with Pipelines. |
+|🟢 [PAT-61] | Train-Test Split | Stratified splits, random seed setting, avoiding data leakage. |
+|🟢 [PAT-62] | Cross-Validation | K-Fold vs Stratified K-Fold CV, preventing leakage with Pipelines. |
 | [PAT-96] | Data Leakage | Identifying train-test leakage, target leakage, temporal leakage. |
 
 ### Preprocessing & Feature Engineering
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-64] | Missing Value Imputation | Mean/Median vs KNN/Iterative imputation, fitting only on train set. |
-| [PAT-63] | Feature Engineering | Creating ratios, log transformations, date extractions, binning. |
-| [PAT-65] | Encoding Categoricals | Choosing between Nominal (OHE) and Ordinal (Label/Ordinal) encoding. |
-| [PAT-66] | One-Hot Encoding | Binary columns, Dummy Variable Trap (drop_first=True). |
-| [PAT-67] | Label Encoding | Mapping categories to integers, tree model compatibility. |
-| [PAT-68] | Feature Scaling | When algorithms require scaling (distance/gradient-based vs tree-based). |
-| [PAT-69] | Standardization vs Normalization | Z-score (StandardScaler) vs Min-Max (MinMaxScaler), handling outliers. |
+|🟢 [PAT-64] | Missing Value Imputation | Mean/Median vs KNN/Iterative imputation, fitting only on train set. |
+|🟢 [PAT-63] | Feature Engineering | Creating ratios, log transformations, date extractions, binning. |
+|🟢 [PAT-65] | Encoding Categoricals | Choosing between Nominal (OHE) and Ordinal (Label/Ordinal) encoding. |
+|🟢 [PAT-66] | One-Hot Encoding | Binary columns, Dummy Variable Trap (drop_first=True). |
+|🟢 [PAT-67] | Label Encoding | Mapping categories to integers, tree model compatibility. |
+|🟢 [PAT-68] | Feature Scaling | When algorithms require scaling (distance/gradient-based vs tree-based). |
+|🟢 [PAT-69] | Standardization vs Normalization | Z-score (StandardScaler) vs Min-Max (MinMaxScaler), handling outliers. |
 | [PAT-50] | Multicollinearity | Variance Inflation Factor (VIF > 10), unstable regression coefficients. |
 
 ### Regression & Linear Models
@@ -128,8 +128,8 @@
 | :--- | :--- | :--- |
 | [PAT-48] | Linear Regression Interpretation | OLS coefficients, R-squared vs Adjusted R-squared, LINE assumptions. |
 | [PAT-49] | Logistic Regression Interpretation | Log-odds, sigmoid transformation, interpreting Odds Ratios exp(beta). |
-| [PAT-72] | Regularization | Loss penalties, controlling model complexity via hyperparameter lambda/C. |
-| [PAT-73] | L1 vs L2 | Lasso (L1) feature selection vs Ridge (L2) coefficient shrinkage. |
+|🟢 [PAT-72] | Regularization | Loss penalties, controlling model complexity via hyperparameter lambda/C. |
+|🟢 [PAT-73] | L1 vs L2 | Lasso (L1) feature selection vs Ridge (L2) coefficient shrinkage. |
 
 ### Distance-Based & Probabilistic Models
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
@@ -161,17 +161,17 @@
 ### Model Diagnostics
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-51] | Bias-Variance Tradeoff | Underfitting vs overfitting, total error decomposition. |
-| [PAT-70] | Overfitting Detection | Diagnostic learning curves, monitoring train vs test accuracy gap. |
-| [PAT-71] | Underfitting Detection | High bias symptoms, increasing model capacity and feature set. |
+|🟢 [PAT-51] | Bias-Variance Tradeoff | Underfitting vs overfitting, total error decomposition. |
+|🟢 [PAT-70] | Overfitting Detection | Diagnostic learning curves, monitoring train vs test accuracy gap. |
+|🟢 [PAT-71] | Underfitting Detection | High bias symptoms, increasing model capacity and feature set. |
 
 ### Classification Metrics
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-55] | Imbalanced Dataset | SMOTE oversampling, class_weight='balanced', threshold shifting. |
-| [PAT-52] | Precision vs Recall | Tradeoffs when FP cost differs from FN cost, classification threshold tuning. |
-| [PAT-53] | F1 Score | Harmonic mean of Precision and Recall, F-beta score variants. |
-| [PAT-54] | ROC-AUC | Receiver Operating Characteristic curve, threshold-independent ranking evaluation. |
+|🟢 [PAT-55] | Imbalanced Dataset | SMOTE oversampling, class_weight='balanced', threshold shifting. |
+|🟢 [PAT-52] | Precision vs Recall | Tradeoffs when FP cost differs from FN cost, classification threshold tuning. |
+|🟢 [PAT-53] | F1 Score | Harmonic mean of Precision and Recall, F-beta score variants. |
+|🟢 [PAT-54] | ROC-AUC | Receiver Operating Characteristic curve, threshold-independent ranking evaluation. |
 
 ### Explainability
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
@@ -317,7 +317,7 @@
 
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| **[GAP-PY-01]** | **Pandas & Data Vectorization** | **Core dataframe manipulation (merge, groupby, apply, pivot_table), handling missing data, and replacing iterative loops with efficient vectorization.** |
+|🟢 **[GAP-PY-01]** | **Pandas & Data Vectorization** | **Core dataframe manipulation (merge, groupby, apply, pivot_table), handling missing data, and replacing iterative loops with efficient vectorization.** |
 | [GAP-INT-01] | Python Data Structures & Whiteboarding | Dictionary/hashmap manipulation, list comprehensions, string parsing, sliding windows, and lightweight algorithmic puzzles. |
 | [GAP-INT-02] | Product Sense, Metrics & Root Cause Analysis | Systematically diagnosing metric drops (e.g., "DAU dropped 10%"), defining primary/guardrail metrics, product tradeoff frameworks. |
 | [GAP-INT-03] | Behavioral Framing & Narrative Crafting | Structuring past projects/gap story using STAR framework, handling "Tell me about yourself", framing self-directed execution as a strength. |
