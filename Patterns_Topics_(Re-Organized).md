@@ -65,9 +65,9 @@
 ### Descriptive Stats & Distributions
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-31] | Mean vs Median | Central tendency under skewness and outliers, trimmed mean. |
-| [PAT-32] | Standard Deviation | Sample vs population standard deviation, Bessel correction (ddof=1). |
-| [PAT-33] | Outlier Detection | Z-score thresholding vs IQR method (Tukey fences). |
+|🟢 [PAT-31] | Mean vs Median | Central tendency under skewness and outliers, trimmed mean. |
+|🟢 [PAT-32] | Standard Deviation | Sample vs population standard deviation, Bessel correction (ddof=1). |
+|🟢 [PAT-33] | Outlier Detection | Z-score thresholding vs IQR method (Tukey fences). |
 |🟢 [PAT-56] | Normal Distribution | Bell curve PDF, Empirical Rule (68-95-99.7), Z-score standardization. |
 |🟢 [PAT-57] | Binomial Distribution | PMF for fixed independent binary trials, A/B test conversion modeling. |
 |🟢 [PAT-58] | Poisson Distribution | Modeling rare events in fixed intervals, Mean = Variance = Lambda. |
