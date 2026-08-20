@@ -126,8 +126,8 @@
 ### Regression & Linear Models
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-48] | Linear Regression Interpretation | OLS coefficients, R-squared vs Adjusted R-squared, LINE assumptions. |
-| [PAT-49] | Logistic Regression Interpretation | Log-odds, sigmoid transformation, interpreting Odds Ratios exp(beta). |
+|🟢 [PAT-48] | Linear Regression Interpretation | OLS coefficients, R-squared vs Adjusted R-squared, LINE assumptions. |
+|🟢 [PAT-49] | Logistic Regression Interpretation | Log-odds, sigmoid transformation, interpreting Odds Ratios exp(beta). |
 |🟢 [PAT-72] | Regularization | Loss penalties, controlling model complexity via hyperparameter lambda/C. |
 |🟢 [PAT-73] | L1 vs L2 | Lasso (L1) feature selection vs Ridge (L2) coefficient shrinkage. |
 
