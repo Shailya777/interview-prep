@@ -76,8 +76,8 @@
 ### Probability Basics & Bayes
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-34] | Probability Basics | Addition rule, multiplication rule, complement rule. |
-| [PAT-35] | Conditional Probability | P(A\|B) formula, contingency tables, independence tests. |
+|🟢 [PAT-34] | Probability Basics | Addition rule, multiplication rule, complement rule. |
+|🟢 [PAT-35] | Conditional Probability | P(A\|B) formula, contingency tables, independence tests. |
 | [PAT-36] | Bayes Theorem | Prior, likelihood, posterior calculation, Base Rate Fallacy. |
 
 ### Inferential Stats & Hypothesis Testing
@@ -134,9 +134,9 @@
 ### Distance-Based & Probabilistic Models
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [GAP-ML-02] | K-Nearest Neighbors & Distance Metrics | KNN classification/regression, Curse of Dimensionality, distance metrics (Euclidean, Manhattan, Cosine, Mahalanobis). |
-| [GAP-ML-03] | Naive Bayes Classifier | Bayes Theorem applied to classification, Independence assumption, Gaussian vs. Multinomial NB, Laplace Smoothing. |
-| [GAP-ML-01] | Support Vector Machines (SVM) | Maximum margin hyperplanes, support vectors, soft margins (C hyperparameter), Kernel Trick (RBF, Polynomial). |
+|🟢 [GAP-ML-02] | K-Nearest Neighbors & Distance Metrics | KNN classification/regression, Curse of Dimensionality, distance metrics (Euclidean, Manhattan, Cosine, Mahalanobis). |
+|🟢 [GAP-ML-03] | Naive Bayes Classifier | Bayes Theorem applied to classification, Independence assumption, Gaussian vs. Multinomial NB, Laplace Smoothing. |
+|🟢 [GAP-ML-01] | Support Vector Machines (SVM) | Maximum margin hyperplanes, support vectors, soft margins (C hyperparameter), Kernel Trick (RBF, Polynomial). |
 
 ### Tree-Based Models & Ensembles
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
