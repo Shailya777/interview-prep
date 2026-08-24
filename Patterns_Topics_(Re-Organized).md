@@ -109,7 +109,7 @@
 | :--- | :--- | :--- |
 |🟢 [PAT-61] | Train-Test Split | Stratified splits, random seed setting, avoiding data leakage. |
 |🟢 [PAT-62] | Cross-Validation | K-Fold vs Stratified K-Fold CV, preventing leakage with Pipelines. |
-| [PAT-96] | Data Leakage | Identifying train-test leakage, target leakage, temporal leakage. |
+|🟢 [PAT-96] | Data Leakage | Identifying train-test leakage, target leakage, temporal leakage. |
 
 ### Preprocessing & Feature Engineering
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
@@ -121,7 +121,7 @@
 |🟢 [PAT-67] | Label Encoding | Mapping categories to integers, tree model compatibility. |
 |🟢 [PAT-68] | Feature Scaling | When algorithms require scaling (distance/gradient-based vs tree-based). |
 |🟢 [PAT-69] | Standardization vs Normalization | Z-score (StandardScaler) vs Min-Max (MinMaxScaler), handling outliers. |
-| [PAT-50] | Multicollinearity | Variance Inflation Factor (VIF > 10), unstable regression coefficients. |
+|🟢 [PAT-50] | Multicollinearity | Variance Inflation Factor (VIF > 10), unstable regression coefficients. |
 
 ### Regression & Linear Models
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
