@@ -78,7 +78,7 @@
 | :--- | :--- | :--- |
 |🟢 [PAT-34] | Probability Basics | Addition rule, multiplication rule, complement rule. |
 |🟢 [PAT-35] | Conditional Probability | P(A\|B) formula, contingency tables, independence tests. |
-| [PAT-36] | Bayes Theorem | Prior, likelihood, posterior calculation, Base Rate Fallacy. |
+|🟢 [PAT-36] | Bayes Theorem | Prior, likelihood, posterior calculation, Base Rate Fallacy. |
 
 ### Inferential Stats & Hypothesis Testing
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
@@ -141,10 +141,10 @@
 ### Tree-Based Models & Ensembles
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-74] | Decision Tree | Impurity split criteria (Gini vs Entropy), controlling depth to prevent overfit. |
-| [PAT-75] | Random Forest | Bagging ensemble, bootstrap sampling, feature randomness, OOB score. |
-| [PAT-76] | Gradient Boost | Sequential boosting, residual fitting, learning rate shrinkage. |
-| [PAT-77] | XGBoost | Optimized boosting, built-in L1/L2 regularization, early stopping. |
+|🟢 [PAT-74] | Decision Tree | Impurity split criteria (Gini vs Entropy), controlling depth to prevent overfit. |
+|🟢 [PAT-75] | Random Forest | Bagging ensemble, bootstrap sampling, feature randomness, OOB score. |
+|🟢 [PAT-76] | Gradient Boost | Sequential boosting, residual fitting, learning rate shrinkage. |
+|🟢 [PAT-77] | XGBoost | Optimized boosting, built-in L1/L2 regularization, early stopping. |
 
 ### Unsupervised Learning
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
