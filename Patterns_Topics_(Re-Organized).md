@@ -149,10 +149,10 @@
 ### Unsupervised Learning
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-78] | Clustering | Unsupervised grouping, metric evaluation (Silhouette score vs Inertia). |
-| [PAT-79] | K-Means | Centroid-based partitioning, Elbow Method, K-Means++ initialization. |
-| [PAT-80] | Hierarchical | Agglomerative tree clustering, dendrograms, Ward linkage. |
-| [PAT-81] | PCA Dimensionality Reduction | Max variance projections, eigenvectors/values, cumulative variance plot. |
+|🟢 [PAT-78] | Clustering | Unsupervised grouping, metric evaluation (Silhouette score vs Inertia). |
+|🟢 [PAT-79] | K-Means | Centroid-based partitioning, Elbow Method, K-Means++ initialization. |
+|🟢 [PAT-80] | Hierarchical | Agglomerative tree clustering, dendrograms, Ward linkage. |
+|🟢 [PAT-81] | PCA Dimensionality Reduction | Max variance projections, eigenvectors/values, cumulative variance plot. |
 
 ---
 
@@ -176,8 +176,8 @@
 ### Explainability
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-97] | Feature Importance | Tree-based Gini importance vs model-agnostic Permutation importance. |
-| [PAT-98] | SHAP Values | Game-theoretic Shapley explanations, global summary vs local waterfall plots. |
+|🟢 [PAT-97] | Feature Importance | Tree-based Gini importance vs model-agnostic Permutation importance. |
+|🟢 [PAT-98] | SHAP Values | Game-theoretic Shapley explanations, global summary vs local waterfall plots. |
 
 ---
 
