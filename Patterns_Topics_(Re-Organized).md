@@ -96,8 +96,8 @@
 ### Causation & Relationships
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-47] | Covariance | Unnormalized co-movement of variables, covariance matrix calculation. |
-| [PAT-46] | Correlation vs Causation | Pearson r, confounders, spurious correlation, establishing causality. |
+|🟢 [PAT-47] | Covariance | Unnormalized co-movement of variables, covariance matrix calculation. |
+|🟢 [PAT-46] | Correlation vs Causation | Pearson r, confounders, spurious correlation, establishing causality. |
 |🟢 [PAT-60] | Simpson's Paradox | Trend reversal in aggregated vs subgroup data, confounding variables. |
 
 ---
