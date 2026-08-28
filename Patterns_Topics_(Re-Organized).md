@@ -88,10 +88,10 @@
 |🟢 [PAT-39] | Confidence Interval | Margin of error, z* critical values, interpreting 95% CIs correctly. |
 |🟢 [PAT-41] | Null vs Alternative Hypothesis | Stating H0 and H1, one-tailed vs two-tailed tests. |
 |🟢 [PAT-43] | Type I and Type II Error | False positives (alpha), false negatives (beta), statistical power (1-beta). |
-| [PAT-45] | Power Analysis | Minimum Detectable Effect (MDE), computing required sample size. |
-| [PAT-40] | Hypothesis Testing | 7-step testing framework, test selection (z-test vs t-test vs chi-square). |
-| [PAT-42] | p-value Interpretation | Definition of p-value, decision rules, statistical vs practical significance. |
-| [PAT-44] | A/B Testing | Randomized controlled trial setup, two-proportion z-test, lift metrics. |
+|🟢 [PAT-45] | Power Analysis | Minimum Detectable Effect (MDE), computing required sample size. |
+|🟢 [PAT-40] | Hypothesis Testing | 7-step testing framework, test selection (z-test vs t-test vs chi-square). |
+|🟢 [PAT-42] | p-value Interpretation | Definition of p-value, decision rules, statistical vs practical significance. |
+|🟢 [PAT-44] | A/B Testing | Randomized controlled trial setup, two-proportion z-test, lift metrics. |
 
 ### Causation & Relationships
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
