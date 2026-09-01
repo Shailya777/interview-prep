@@ -185,10 +185,10 @@
 
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-82] | Recommendation Systems | Personalization overview, user-item interaction matrix, ranking metrics. |
-| [PAT-84] | Content-Based Filtering | Item feature matching, TF-IDF + Cosine similarity, filter bubble risk. |
-| [PAT-83] | Collaborative Filtering | User-User vs Item-Item CF, Matrix Factorization (SVD, ALS). |
-| [PAT-85] | Time Series Forecasting | Trend, seasonality, stationarity (ADF test), chronological splits. |
+|🟢 [PAT-82] | Recommendation Systems | Personalization overview, user-item interaction matrix, ranking metrics. |
+|🟢 [PAT-84] | Content-Based Filtering | Item feature matching, TF-IDF + Cosine similarity, filter bubble risk. |
+|🟢 [PAT-83] | Collaborative Filtering | User-User vs Item-Item CF, Matrix Factorization (SVD, ALS). |
+|🟢 [PAT-85] | Time Series Forecasting | Trend, seasonality, stationarity (ADF test), chronological splits. |
 | [PAT-86] | ARIMA Pattern | AutoRegressive Integrated Moving Average, selecting (p, d, q) via ACF/PACF. |
 | [PAT-90] | Anomaly Detection | Unsupervised outlier finding: Isolation Forest, contamination parameter. |
 
