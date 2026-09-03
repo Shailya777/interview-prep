@@ -199,9 +199,9 @@
 ### Neural Network Foundations & Optimization
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-91] | Neural Network Basics | Dense layers, forward pass, backpropagation, gradient updates. |
-| [PAT-92] | Activation Functions | Non-linearity: ReLU, Sigmoid, Tanh, Softmax, Vanishing Gradient problem. |
-| [GAP-DL-01] | Vanishing & Exploding Gradients | Weight Initialization (He/Xavier), Gradient Clipping, mathematical intuition of the chain rule and vanishing gradients. |
+|🟢 [PAT-91] | Neural Network Basics | Dense layers, forward pass, backpropagation, gradient updates. |
+|🟢 [PAT-92] | Activation Functions | Non-linearity: ReLU, Sigmoid, Tanh, Softmax, Vanishing Gradient problem. |
+|🟢 [GAP-DL-01] | Vanishing & Exploding Gradients | Weight Initialization (He/Xavier), Gradient Clipping, mathematical intuition of the chain rule and vanishing gradients. |
 | [GAP-DL-02] | Advanced Optimizers | Adam vs. RMSprop vs. SGD with Momentum; adaptive learning rates, exponentially weighted moving averages. |
 | [GAP-DL-03] | Normalization Techniques | Batch Normalization vs. Layer Normalization; when to use which (CNNs vs. Transformers), internal covariate shift. |
 | [GAP-DL-04] | Regularization Strategies | Dropout mechanics, L1 (Lasso) vs. L2 (Ridge) Weight Decay, Early Stopping implementation and trade-offs. |
