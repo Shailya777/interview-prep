@@ -202,16 +202,16 @@
 |🟢 [PAT-91] | Neural Network Basics | Dense layers, forward pass, backpropagation, gradient updates. |
 |🟢 [PAT-92] | Activation Functions | Non-linearity: ReLU, Sigmoid, Tanh, Softmax, Vanishing Gradient problem. |
 |🟢 [GAP-DL-01] | Vanishing & Exploding Gradients | Weight Initialization (He/Xavier), Gradient Clipping, mathematical intuition of the chain rule and vanishing gradients. |
-| [GAP-DL-02] | Advanced Optimizers | Adam vs. RMSprop vs. SGD with Momentum; adaptive learning rates, exponentially weighted moving averages. |
-| [GAP-DL-03] | Normalization Techniques | Batch Normalization vs. Layer Normalization; when to use which (CNNs vs. Transformers), internal covariate shift. |
-| [GAP-DL-04] | Regularization Strategies | Dropout mechanics, L1 (Lasso) vs. L2 (Ridge) Weight Decay, Early Stopping implementation and trade-offs. |
+|🟢 [GAP-DL-02] | Advanced Optimizers | Adam vs. RMSprop vs. SGD with Momentum; adaptive learning rates, exponentially weighted moving averages. |
+|🟢 [GAP-DL-03] | Normalization Techniques | Batch Normalization vs. Layer Normalization; when to use which (CNNs vs. Transformers), internal covariate shift. |
+|🟢 [GAP-DL-04] | Regularization Strategies | Dropout mechanics, L1 (Lasso) vs. L2 (Ridge) Weight Decay, Early Stopping implementation and trade-offs. |
 
 ### Convolutional Neural Networks
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-93] | CNN Basics | Convolutional filters, stride, padding, Max Pooling, spatial hierarchies. |
-| [GAP-CNN-01] | Advanced Convolutions | 1x1 Convolutions (dimensionality reduction), Depthwise Separable Convolutions (computational efficiency, MobileNet). |
-| [GAP-CNN-02] | Residual Networks (ResNet) | Skip/Residual connections, solving the vanishing gradient problem in ultra-deep networks, identity mapping. |
+|🟢 [PAT-93] | CNN Basics | Convolutional filters, stride, padding, Max Pooling, spatial hierarchies. |
+|🟢 [GAP-CNN-01] | Advanced Convolutions | 1x1 Convolutions (dimensionality reduction), Depthwise Separable Convolutions (computational efficiency, MobileNet). |
+|🟢 [GAP-CNN-02] | Residual Networks (ResNet) | Skip/Residual connections, solving the vanishing gradient problem in ultra-deep networks, identity mapping. |
 | [GAP-CNN-03] | Transfer Learning & Fine-Tuning | Freezing base layers vs. unfreezing, replacing the classification head, feature extraction vs. full fine-tuning trade-offs. |
 | [GAP-CNN-04] | Object Detection Mechanics | Intersection over Union (IoU), Anchor boxes, Non-Maximum Suppression (NMS), high-level YOLO vs. R-CNN differences. |
 
