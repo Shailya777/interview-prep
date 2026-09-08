@@ -212,8 +212,8 @@
 |🟢 [PAT-93] | CNN Basics | Convolutional filters, stride, padding, Max Pooling, spatial hierarchies. |
 |🟢 [GAP-CNN-01] | Advanced Convolutions | 1x1 Convolutions (dimensionality reduction), Depthwise Separable Convolutions (computational efficiency, MobileNet). |
 |🟢 [GAP-CNN-02] | Residual Networks (ResNet) | Skip/Residual connections, solving the vanishing gradient problem in ultra-deep networks, identity mapping. |
-| [GAP-CNN-03] | Transfer Learning & Fine-Tuning | Freezing base layers vs. unfreezing, replacing the classification head, feature extraction vs. full fine-tuning trade-offs. |
-| [GAP-CNN-04] | Object Detection Mechanics | Intersection over Union (IoU), Anchor boxes, Non-Maximum Suppression (NMS), high-level YOLO vs. R-CNN differences. |
+|🟢 [GAP-CNN-03] | Transfer Learning & Fine-Tuning | Freezing base layers vs. unfreezing, replacing the classification head, feature extraction vs. full fine-tuning trade-offs. |
+|🟢 [GAP-CNN-04] | Object Detection Mechanics | Intersection over Union (IoU), Anchor boxes, Non-Maximum Suppression (NMS), high-level YOLO vs. R-CNN differences. |
 
 ---
 
