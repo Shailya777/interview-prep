@@ -222,10 +222,10 @@
 ### Traditional NLP & Embeddings
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [PAT-87] | NLP Basics | Text preprocessing pipeline: tokenization, stop words, lemmatization. |
-| [PAT-88] | TF-IDF | Term Frequency x Inverse Document Frequency formula, sparse vectors. |
-| [PAT-89] | Word Embeddings | Dense semantic vectors: Word2Vec (CBOW/Skip-gram), GloVe, Sentence-BERT. |
-| [GAP-ATTN-04] | Word Embeddings & Latent Space | Static (Word2Vec/GloVe) vs. Contextual embeddings; semantic mapping and linear relationships in high-dimensional space. |
+|🟢 [PAT-87] | NLP Basics | Text preprocessing pipeline: tokenization, stop words, lemmatization. |
+|🟢 [PAT-88] | TF-IDF | Term Frequency x Inverse Document Frequency formula, sparse vectors. |
+|🟢 [PAT-89] | Word Embeddings | Dense semantic vectors: Word2Vec (CBOW/Skip-gram), GloVe, Sentence-BERT. |
+|🟢 [GAP-ATTN-04] | Word Embeddings & Latent Space | Static (Word2Vec/GloVe) vs. Contextual embeddings; semantic mapping and linear relationships in high-dimensional space. |
 
 ### Sequential Models
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
