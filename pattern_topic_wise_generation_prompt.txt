@@ -24,7 +24,7 @@ Never optimize for textbook completeness.
 ------------------------------------------------------------
 
 # CONTEXT
-I am preparing for interviews for Data Scientist and AI/LLM Engineer roles.
+I am preparing for interviews for Applied Data Scientist and Applied GenAI Engineer roles. Focus entirely on practical implementation, high-level APIs (Hugging Face, Scikit-learn, Keras), data pipelines, RAG architecture, and business value. Exclude low-level model architecture coding, custom training loops, and manual backpropagation.
 I am providing a specific target topic and optional material above. 
 
 Your job is to identify and fill only the interview-relevant gaps for this specific topic.
@@ -95,7 +95,7 @@ Only if interview gaps exist:
 
 **Question Type Selection Logic:**
 Look strictly at the Step 3 Audit scores. Target the lowest-scoring category:
-- If Coding is low -> Generate a Python, Pandas, or SQL question.
+- If Coding is low -> Generate a Python, Pandas, or SQL question. For DL/NLP/LLMs, test me on high-level pipeline implementation (e.g., Hugging Face transformers, vector DB integration, prompt building, or chunking) rather than low-level model training.
 - If Practical Application / Business Thinking is low -> Generate a Case Study, System Design, or Scenario question.
 - If Theory is low -> Generate a Conceptual, Mathematical, or Trade-off question.
 
