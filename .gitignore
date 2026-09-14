@@ -2,4 +2,3 @@ interview_env/
 __pycache__/
 *.db
 Mock_Interviews/mock_interview_state.json
-Mock_Interviews/mock_interview_state.json
