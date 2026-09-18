@@ -230,16 +230,16 @@
 ### Sequential Models
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [GAP-SEQ-01] | RNNs & Long-Term Dependency Limits | Backpropagation through time (BPTT), why standard RNN architectures fail at capturing long-range context. |
-| [GAP-SEQ-02] | LSTM & GRU Architectures | Forget, Input, and Output gates in LSTMs; Update and Reset gates in GRUs; how they solve the vanishing gradient problem. |
-| [GAP-SEQ-03] | Seq2Seq Models & Context Vectors | Encoder-Decoder architecture mechanics, the information bottleneck problem of fixed-length context vectors. |
+|🟢 [GAP-SEQ-01] | RNNs & Long-Term Dependency Limits | Backpropagation through time (BPTT), why standard RNN architectures fail at capturing long-range context. |
+|🟢 [GAP-SEQ-02] | LSTM & GRU Architectures | Forget, Input, and Output gates in LSTMs; Update and Reset gates in GRUs; how they solve the vanishing gradient problem. |
+|🟢 [GAP-SEQ-03] | Seq2Seq Models & Context Vectors | Encoder-Decoder architecture mechanics, the information bottleneck problem of fixed-length context vectors. |
 
 ### Attention & Transformer Basics
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [GAP-ATTN-01] | Traditional Attention Mechanisms | Bahdanau (Additive) vs. Luong (Multiplicative) attention; moving from fixed to dynamic context vectors. |
-| [GAP-ATTN-02] | Self-Attention Mechanics | Q, K, V matrices; calculating attention weights; scaled dot-product formula and softmax operations. |
-| [GAP-ATTN-03] | Transformer Architecture Core | Positional Encoding (Sine/Cosine intuition), Encoder vs. Decoder blocks, Masked Self-Attention in decoders. |
+|🟢 [GAP-ATTN-01] | Traditional Attention Mechanisms | Bahdanau (Additive) vs. Luong (Multiplicative) attention; moving from fixed to dynamic context vectors. |
+|🟢 [GAP-ATTN-02] | Self-Attention Mechanics | Q, K, V matrices; calculating attention weights; scaled dot-product formula and softmax operations. |
+|🟢 [GAP-ATTN-03] | Transformer Architecture Core | Positional Encoding (Sine/Cosine intuition), Encoder vs. Decoder blocks, Masked Self-Attention in decoders. |
 
 ---
 
