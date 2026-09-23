@@ -230,16 +230,16 @@
 ### Sequential Models
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [GAP-SEQ-01] | RNNs & Long-Term Dependency Limits | Backpropagation through time (BPTT), why standard RNN architectures fail at capturing long-range context. |
-| [GAP-SEQ-02] | LSTM & GRU Architectures | Forget, Input, and Output gates in LSTMs; Update and Reset gates in GRUs; how they solve the vanishing gradient problem. |
-| [GAP-SEQ-03] | Seq2Seq Models & Context Vectors | Encoder-Decoder architecture mechanics, the information bottleneck problem of fixed-length context vectors. |
+|🟢 [GAP-SEQ-01] | RNNs & Long-Term Dependency Limits | Backpropagation through time (BPTT), why standard RNN architectures fail at capturing long-range context. |
+|🟢 [GAP-SEQ-02] | LSTM & GRU Architectures | Forget, Input, and Output gates in LSTMs; Update and Reset gates in GRUs; how they solve the vanishing gradient problem. |
+|🟢 [GAP-SEQ-03] | Seq2Seq Models & Context Vectors | Encoder-Decoder architecture mechanics, the information bottleneck problem of fixed-length context vectors. |
 
 ### Attention & Transformer Basics
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [GAP-ATTN-01] | Traditional Attention Mechanisms | Bahdanau (Additive) vs. Luong (Multiplicative) attention; moving from fixed to dynamic context vectors. |
-| [GAP-ATTN-02] | Self-Attention Mechanics | Q, K, V matrices; calculating attention weights; scaled dot-product formula and softmax operations. |
-| [GAP-ATTN-03] | Transformer Architecture Core | Positional Encoding (Sine/Cosine intuition), Encoder vs. Decoder blocks, Masked Self-Attention in decoders. |
+|🟢 [GAP-ATTN-01] | Traditional Attention Mechanisms | Bahdanau (Additive) vs. Luong (Multiplicative) attention; moving from fixed to dynamic context vectors. |
+|🟢 [GAP-ATTN-02] | Self-Attention Mechanics | Q, K, V matrices; calculating attention weights; scaled dot-product formula and softmax operations. |
+|🟢 [GAP-ATTN-03] | Transformer Architecture Core | Positional Encoding (Sine/Cosine intuition), Encoder vs. Decoder blocks, Masked Self-Attention in decoders. |
 
 ---
 
@@ -248,11 +248,11 @@
 ### Core LLM Architecture & Inference
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
 | :--- | :--- | :--- |
-| [GAP-LLM-01] | Transformer Mechanics & Self-Attention | Self-Attention math (Q, K, V), O(N^2) sequence complexity, Scaled Dot-Product Attention. |
-| [GAP-LLM-02] | Attention Variants (MHA vs. GQA vs. MQA) | Multi-Head vs. Grouped-Query vs. Multi-Query Attention; memory bandwidth vs. quality trade-offs. |
-| [GAP-LLM-03] | Positional Embeddings (RoPE, ALiBi, Absolute) | Absolute vs. Relative embeddings, Rotary Position Embeddings (RoPE) mechanics, context window extension. |
-| [GAP-LLM-04] | Tokenization Algorithms | Byte-Pair Encoding (BPE), WordPiece, SentencePiece, handling Special Tokens, OOV token problems. |
-| [GAP-LLM-05] | Inference Optimization (KV Cache, FlashAttention) | Key-Value Caching memory bottleneck, PagedAttention (vLLM), FlashAttention IO-awareness, Quantization (INT8/INT4). |
+|🟢 [GAP-LLM-01] | Transformer Mechanics & Self-Attention | Self-Attention math (Q, K, V), O(N^2) sequence complexity, Scaled Dot-Product Attention. |
+|🟢 [GAP-LLM-02] | Attention Variants (MHA vs. GQA vs. MQA) | Multi-Head vs. Grouped-Query vs. Multi-Query Attention; memory bandwidth vs. quality trade-offs. |
+|🟢 [GAP-LLM-03] | Positional Embeddings (RoPE, ALiBi, Absolute) | Absolute vs. Relative embeddings, Rotary Position Embeddings (RoPE) mechanics, context window extension. |
+|🟢 [GAP-LLM-04] | Tokenization Algorithms | Byte-Pair Encoding (BPE), WordPiece, SentencePiece, handling Special Tokens, OOV token problems. |
+|🟢 [GAP-LLM-05] | Inference Optimization (KV Cache, FlashAttention) | Key-Value Caching memory bottleneck, PagedAttention (vLLM), FlashAttention IO-awareness, Quantization (INT8/INT4). |
 
 ### Fine-Tuning & Alignment
 | Pattern ID | Topic Name | Core Focus & Key Syntax / Interview Questions |
